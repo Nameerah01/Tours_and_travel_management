@@ -1,0 +1,89 @@
+html,
+body,
+header,
+#intro
+{
+    height: 100%;
+    
+}
+#main
+{
+  margin-top:-1rem;
+}
+
+
+
+#intro {
+ 
+  background: url("../img/pexels.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+  
+  
+  
+  .card-title
+  {
+    
+    color: rgba(228, 83, 57, 0.952);
+    background-color:#D3E4CD;
+  }
+  .card-img-top
+  {
+    height: 15rem;
+  }
+ 
+
+  #viewall
+  {
+    background-color:#D3E4CD; 
+  color: black; 
+  border: 1px solid black;
+  
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+  #viewall:hover
+  {
+    background-color:#D3E4CD;
+  color: white;
+  }
+
+  .okay{
+    background-image: url("favicon-16x16.png");
+  }
+ body{
+   margin:0;
+ }
+ header{
+   height:100vh;
+   margin: bottom 2row;;
+   background-size: cover;
+ }
+ video{
+   min-height: 100vh;
+   max-width: 100vw;
+   object-fit: cover;
+ }
+ .overlay{
+   position: absolute;
+   top:0;
+   bottom:0;
+   left:0;
+   right:0;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   color:#fff;
+ }
